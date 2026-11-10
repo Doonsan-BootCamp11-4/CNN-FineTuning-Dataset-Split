@@ -33,7 +33,7 @@ def make_split(
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", required=True)
-    ap.add_argument("--out", default="splits_datasets.csv")
+    ap.add_argument("--out", default="../splits_datasets.csv")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
 
